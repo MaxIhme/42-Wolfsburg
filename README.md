@@ -10,7 +10,7 @@ Reprogramming some basic C functions like atoi, memcpy, strchr and many more.
 Gets a file descriptor (for example to a textfile) and returns a pointer to allocated memory with a whole line in it. Everytime the function get's called it returns the next line until the file ends.
 
 ## ft_printf
-reprogramming the function printf with the conversions %c (char), %s (string), %p (pointer), %d (decimal), %i (integer), %u (unsigned), %x (hexadecimal lowercase), %X (hexadecimal uppercase) and %% (%)
+Reprogramming the function printf with the conversions %c (char), %s (string), %p (pointer), %d (decimal), %i (integer), %u (unsigned), %x (hexadecimal lowercase), %X (hexadecimal uppercase) and %% (%)
 
 ## Memory leaks
 
