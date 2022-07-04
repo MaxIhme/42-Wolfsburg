@@ -6,10 +6,10 @@
 
 ## vi
 - Insert mode - `i`
-command mode `Esc`
-delete one char `d`
-delete one word (to the right) `dw`
-save `:w!`
-quit `:q!`
-both `:wq!`
+- command mode `Esc`
+- delete one char `d`
+- delete one word (to the right) `dw`
+- save `:w!`
+- quit `:q!`
+- both `:wq!`
 
