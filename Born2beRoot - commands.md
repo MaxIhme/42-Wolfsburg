@@ -13,6 +13,17 @@
 ## Apparmor
 - `sudo service apparmor status`
 
+## Account
+- `sudo adduser ...`
+- `sudo deluser ...`
+
+## UFW
+- `sudo apt install ufw`
+- `sudo ufw allow 4242`
+- `sudo ufw enable`
+- `sudo ufw disable`
+- `sudo ufw status verbose`
+
 ## vi
 - Insert mode - `i`
 - command mode `Esc`
