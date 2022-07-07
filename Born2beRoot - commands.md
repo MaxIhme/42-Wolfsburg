@@ -5,6 +5,9 @@
 - in `/etc/ssh/sshd_config` look for #Port 22 (change that and delete #)
 - look for ports `ss -natp`
 
+## Apparmor
+- `sudo service apparmor status`
+
 ## vi
 - Insert mode - `i`
 - command mode `Esc`
