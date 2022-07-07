@@ -5,7 +5,7 @@
 - in `/etc/ssh/sshd_config` look for #Port 22 (change that and delete #)
 - look for ports `ss -natp`
 - `systemctl restart sshd`
-- in `/etc/ssh/sshd_config/`
+- in `/etc/ssh/sshd_config`
 - look for
 - Port 4242
 - PermitRootLogin
