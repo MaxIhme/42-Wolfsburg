@@ -4,6 +4,7 @@
 - `sudo service ssh status`
 - in `/etc/ssh/sshd_config` look for #Port 22 (change that and delete #)
 - look for ports `ss -natp`
+- `systemctl restart sshd`
 
 ## Apparmor
 - `sudo service apparmor status`
