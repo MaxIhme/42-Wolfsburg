@@ -24,6 +24,10 @@
 - `sudo ufw disable`
 - `sudo ufw status verbose`
 
+## hostname
+- `hostname`
+- `hostnamectl set-hostname max42`
+
 ## vi
 - Insert mode - `i`
 - command mode `Esc`
