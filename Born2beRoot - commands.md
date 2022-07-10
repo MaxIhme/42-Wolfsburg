@@ -17,8 +17,12 @@
 - `sudo service apparmor status`
 
 ## Account
-- `sudo adduser ...`
-- `sudo deluser ...`
+- `sudo adduser USER`
+- `sudo deluser USER`
+- `sudo groupadd GROUPNAME`
+- list users: `cat /etc/passwd`
+- list groups: `cat /etc/group`
+- add to group: `sudo usermod -a -G USER GROUP`
 
 ## UFW
 - `sudo apt install ufw`
