@@ -1,4 +1,7 @@
 
+## sudo
+- `/sbin/adduser username sudo`
+
 ## SSH
 - `sudo service ssh restart`
 - `sudo service ssh status`
@@ -26,7 +29,7 @@
 
 ## hostname
 - `hostname`
-- `hostnamectl set-hostname max42`
+- `sudo hostnamectl set-hostname max42`
 
 ## vi
 - Insert mode - `i`
