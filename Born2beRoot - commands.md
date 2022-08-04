@@ -44,3 +44,6 @@
 - quit `:q!`
 - both `:wq!`
 
+## system
+
+- show partitions `lsblk`
