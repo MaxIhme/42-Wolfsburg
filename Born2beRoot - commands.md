@@ -1,6 +1,6 @@
 
 ## sudo
-- `/sbin/adduser username sudo`
+- `/sbin/adduser USER sudo`
 
 ## SSH
 - `sudo service ssh restart`
