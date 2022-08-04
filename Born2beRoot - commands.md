@@ -23,6 +23,9 @@
 - list users: `cat /etc/passwd`
 - list groups: `cat /etc/group`
 - add to group: `sudo usermod -a -G USER GROUP`
+- change to another user account: `su - USER`
+- show groups: `groups`
+- show groups USER belongs to: `groups USER`
 
 ## UFW
 - `sudo apt install ufw`
