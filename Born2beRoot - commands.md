@@ -34,6 +34,9 @@
 - expiration of pw every 30 days (Min days): `sudo chage -m 30 USER`
 - expiration of pw every 30 days (warn days): `sudo chage -W 30 USER`
 - see pw policy: `sudo chage -l USER`
+- password settings `sudo nano /etc/pam.d/common-password`
+password   requisite    pam_cracklib.so retry=3 minlen=10 difok=7 ucredit=-1 lcredit=-1 dcredit=-1 ocredit=-1 maxrepeat=3
+
 
 ## UFW
 - `sudo apt install ufw`
@@ -56,6 +59,5 @@
 - both `:wq!`
 
 ## system
-
 - show partitions `lsblk`
 - reboot `sudo shutdown --reboot now`
