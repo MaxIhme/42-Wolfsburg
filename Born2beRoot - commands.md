@@ -28,8 +28,12 @@
 - show groups USER belongs to: `groups USER`
 
 ## password policy
+- change password: `passwd`
 - show pw policy: `sudo cat /etc/shadow`  {userName}:{password}:{lastpasswdchanged}:{Minimum_days}:{Maximum_days}:{Warn}:{Inactive}:{Expire}:
-- expiration of pw every 30 days: `sudo chage -M 30 USER`
+- expiration of pw every 30 days (Max days): `sudo chage -M 30 USER`
+- expiration of pw every 30 days (Min days): `sudo chage -m 30 USER`
+- expiration of pw every 30 days (warn days): `sudo chage -W 30 USER`
+- see pw policy: `sudo chage -l USER`
 
 ## UFW
 - `sudo apt install ufw`
