@@ -58,3 +58,4 @@
 ## system
 
 - show partitions `lsblk`
+- reboot `sudo shutdown --reboot now`
