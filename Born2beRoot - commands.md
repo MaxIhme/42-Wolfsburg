@@ -63,6 +63,8 @@ password   requisite    pam_cracklib.so retry=3 minlen=10 difok=7 ucredit=-1 lcr
 - reboot `sudo shutdown --reboot now`
 - PID of dhclient: `sudo lsof -i:68`
 - Kill the process: `sudo kill PID`
+- get signature: `cd VirtualBox\ VMs/Debian_neu/`
+- `shasum Debian_neu.vdi`
 
 ## cron
 - `sudo systemctl status cron.service`
