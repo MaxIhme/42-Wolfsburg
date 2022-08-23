@@ -61,6 +61,8 @@ password   requisite    pam_cracklib.so retry=3 minlen=10 difok=7 ucredit=-1 lcr
 ## system
 - show partitions `lsblk`
 - reboot `sudo shutdown --reboot now`
+- PID of dhclient: `sudo lsof -i:68`
+- Kill the process: `sudo kill PID`
 
 ## cron
 - `sudo systemctl status cron.service`
