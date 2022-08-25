@@ -1,6 +1,7 @@
 
 ## sudo
 - `/sbin/adduser USER sudo`
+- sudoers file: `sudo nano /etc/sudoers`
 
 ## SSH
 - `sudo service ssh restart`
@@ -41,6 +42,8 @@ password   requisite    pam_cracklib.so retry=3 minlen=10 difok=7 ucredit=-1 lcr
 ## UFW
 - `sudo apt install ufw`
 - `sudo ufw allow 4242`
+- `sudo ufw deny 4242`
+- `sudo ufw delete deny 4242`
 - `sudo ufw enable`
 - `sudo ufw disable`
 - `sudo ufw status verbose`
@@ -68,6 +71,9 @@ password   requisite    pam_cracklib.so retry=3 minlen=10 difok=7 ucredit=-1 lcr
 
 ## cron
 - `sudo systemctl status cron.service`
-- `sudo systemctl enable cron.service`
+- enable autostart:`sudo systemctl enable cron.service`
+- disable autostart: `sudo systemctl disable cron.service`
+- start service: `sudo systemctl start cron.service`
+- stop service: `sudo systemctl stop cron.service`
 - cron of root `sudo crontab -u root -e`
 - job in crontab every 10 minutes: `*/10 * * * * bash ORT` 
