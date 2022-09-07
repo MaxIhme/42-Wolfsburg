@@ -13,6 +13,7 @@
 - look for
 - Port 4242
 - PermitRootLogin
+- `ssh -p 4242 USER@127.0.0.1`
 
 ## Apparmor
 - `sudo service apparmor status`
