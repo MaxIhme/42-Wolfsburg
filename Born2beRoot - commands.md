@@ -14,6 +14,7 @@
 - Port 4242
 - PermitRootLogin
 - `ssh -p 4242 USER@127.0.0.1`
+- copy files via ssh: `scp -P 4242 USER@127.0.0.1:/home/../monitoring.sh /Users/.../monitoring.sh`
 
 ## Apparmor
 - `sudo service apparmor status`
