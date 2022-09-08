@@ -12,6 +12,9 @@ Gets a file descriptor (for example to a textfile) and returns a pointer to allo
 ## ft_printf
 Reprogramming the function printf with the conversions %c (char), %s (string), %p (pointer), %d (decimal), %i (integer), %u (unsigned), %x (hexadecimal lowercase), %X (hexadecimal uppercase) and %% (%)
 
+## Born2beroot
+Installing a debian system in VirtualBox, configuration of a firewall, administration of users and groups, changing password policy, configuring sudo, writing a monitoring bash script -> see dir Born2beroot 
+
 ## Memory leaks
 
 We fail if we have any memory leaks, segfaults or compilation errors.
