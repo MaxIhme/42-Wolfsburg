@@ -16,10 +16,13 @@ Reprogramming the function printf with the conversions %c (char), %s (string), %
 Installing a debian system in VirtualBox, configuration of a firewall, administration of users and groups, changing password policy, configuring sudo, writing a monitoring bash script -> see dir Born2beroot 
 
 ## push_swap
+Implementing sorting algorythms. We were allowed to use 2 imaginary stacks. The comands we were alloed to use to sort the numbers were: sa, sb-> swap the first two numbers of stack a/b; ss -> sa and sb in one; pa, pb -> push the first number in b to a/ in a to b; ra, rb -> rotate a: shift up all elements of a, the first one becomes the last one. similar with rb; rr -> ra and rb at the same time; rra,rrb -> reverse rotate a: shift down all elements of a. The last element becomes the first one. Similar with rb; rrr -> rra and rrb at the same time. We had to sort the numbers in a restricted number of commands that I wrote above.
 
 ## so_long
+Implementing a little 2D game with Tiles, Collectibles and an Exit. It reads a textfile as a map and chechs it if it's valid, then starts the game.
 
 ## minitalk
+Write two programs that communicate with signals SIGUSR1 and SIGUSR2. It was implemented via bit transmittion with these two Signals. 
 
 ## Memory leaks
 
