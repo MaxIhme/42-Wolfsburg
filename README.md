@@ -17,6 +17,10 @@ Installing a debian system in VirtualBox, configuration of a firewall, administr
 
 ## push_swap
 
+## so_long
+
+## minitalk
+
 ## Memory leaks
 
 We fail if we have any memory leaks, segfaults or compilation errors.
